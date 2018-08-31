@@ -8,6 +8,12 @@ namespace Demogit1
 {
     class Program
     {
+        public string Saludo { get; set; }
+        public Program()
+        {
+            Saludo = "Hola Uadeo";
+        }
+
         static void Main(string[] args)
         {
         }
