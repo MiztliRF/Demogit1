@@ -16,6 +16,9 @@ namespace Demogit1
 
         static void Main(string[] args)
         {
+            var saludo = new Program();
+            Console.WriteLine(saludo.Saludo);
+            Console.Read();
         }
     }
 }
